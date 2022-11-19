@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.2-dist/css/bootstrap.min.css"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
+      <div class="container my-3">
+        <a class="navbar-brand" href="#">TROPA <span>TOINKS</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- HOME -->
+    <div class="container-fluid section-1">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <span class="text-header"
+              >TROPA <span class="toinks">TOINKS</span></span
+            >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              reiciendis minima numquam eligendi, tempore consequuntur sapiente
+              fuga soluta nulla deserunt?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              ipsa quidem magni praesentium obcaecati modi? Illum dignissimos ab
+              quaerat. Hic?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- GALLERY -->
+    <div class="container section-2">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-header">GALLERY</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mx-auto text-center">
+          <a href="" class="btn-all active">All</a>
+          <a href="" class="btn-all">Tropa Toinks</a>
+          <a href="" class="btn-all">Bert</a>
+          <a href="" class="btn-all">Paul</a>
+          <a href="" class="btn-all">Warren</a>
+          <a href="" class="btn-all">Yen</a>
+        </div>
+      </div>
+      <div class="row gallery-container gy-5" id="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body" id="card-body">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
