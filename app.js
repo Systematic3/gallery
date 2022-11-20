@@ -12,7 +12,10 @@ fetch("data.json")
           <div class="card">
             <div class="card-body" id="card-body">
                 <img src='${datas.img}' class='img-fluid'>
-                <a href='${datas.img}' target='_blank' download><i class="fas fa-download"></i></a>
+                <div class='btn-control'>
+                  <a href='${datas.img}' target='_blank' class='preview'>Preview</a>
+                  <a href='${datas.img}' target='_blank' download><i class="fas fa-download"></i></a>
+                </div>
             </div>
           </div>
         </div>
