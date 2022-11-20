@@ -74,7 +74,7 @@ $(document).ready(function () {
       text: "Sorry, the videos are not currently accessible since the file size is too large to upload to a free hosting service.",
       icon: "warning",
       confirmButtonColor: "orange",
-      footer: '-Systematic'
+      footer: "-Systematic",
     });
   });
 });
