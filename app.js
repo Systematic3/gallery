@@ -66,3 +66,15 @@ $(document).ready(function () {
     $(this).addClass("active").siblings().removeClass("active");
   });
 });
+
+$(document).ready(function () {
+  $(".btn-vid").click(function () {
+    Swal.fire({
+      title: "",
+      text: "Sorry, the videos are not currently accessible since the file size is too large to upload to a free hosting service.",
+      icon: "warning",
+      confirmButtonColor: "orange",
+      footer: '-Systematic'
+    });
+  });
+});
