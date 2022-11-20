@@ -15,7 +15,11 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./styles.css" />
     <!-- SCRIPT -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- FONTAWESOME -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    ></script>
   </head>
   <body>
     <!-- NAV -->
@@ -103,27 +107,27 @@
     <!-- GALLERY -->
     <div class="container section-2">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 text-start">
           <h1 class="text-header">GALLERY</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 mx-auto text-center">
-          <a href="" class="btn-all active">All</a>
-          <a href="" class="btn-all">Tropa Toinks</a>
+        <div class="col-md-6" id="myBtnContainer">
+          <button class="btn-all active" data-filter="photos">Photos</button>
+          <button class="btn-all" data-filter="videos">Videos</button>
         </div>
       </div>
-      <div class="row gallery-container gy-5" id="row">
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-body" id="card-body"></div>
-          </div>
-        </div>
-      </div>
+      <div class="row gallery-container gy-5" id="row"></div>
+      <div class="row gy-3" id="video-container"></div>
     </div>
 
     <!-- BOOTSTRAP JS -->
     <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
     <script src="./app.js"></script>
   </body>
 </html>
